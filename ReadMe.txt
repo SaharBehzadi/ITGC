@@ -1,0 +1,7 @@
+Grid-based clustering algorithms are well-known due to their efficiency in terms of the fast processing time. On the other
+hand, when dealing with arbitrary shaped data sets, densitybased methods are most of the time the best options. Accordingly,
+a combination of grid and density-based methods, where the advantages of both approaches are achievable, sounds interesting.
+However, most of the algorithms in these categories require a set of parameters to be specified while usually it is not trivial
+to appropriately set them. Thus, we propose an InformationTheoretic Grid-based Clustering (ITGC) algorithm by regarding
+the clustering as a data compression problem. That is, we merge the neighbour grid cells (clusters) when it pays off in terms of
+the compression cost. Our extensive synthetic and real-world experiments show the advantages of ITGC compared to the wellknown clustering algorithms.
